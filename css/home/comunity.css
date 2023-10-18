@@ -1,0 +1,54 @@
+/* community */
+
+.text_commu{
+    text-align: center;
+    color: #717171;
+}
+
+.Community h2{
+    font-size: 32px;
+}
+
+.Community p{
+    font-size: 12px;
+}
+
+.grid-community{
+    display: flex;
+    max-width: 1050px;
+    margin-top: 36px;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 140px;
+    justify-content: center;
+    color: #717171;
+
+}
+
+.g-commu{
+    display: grid;
+    width: 240px;
+    text-align: center;
+    justify-items: center;
+    border: solid #4d4d4d17 0.2px;
+    border-radius: 2px;
+}
+
+@media (max-width:830px){
+   
+
+    /*commu*/
+
+    .grid-community{
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 1050px;
+        margin-top: 36px;
+        margin-left: auto;
+        margin-right: auto;
+        gap: 48px;
+        justify-content: center;
+        color: #717171;
+
+    }
+}

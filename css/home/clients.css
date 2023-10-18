@@ -1,0 +1,56 @@
+.clients h2 , .clients p {
+    text-align: center;
+    color: #717171;
+}
+
+.clients { 
+
+    margin-top: 26px;
+
+}
+
+.clients h2{
+    font-size: 32px;
+}
+
+.clients p{
+    font-size: 12px;
+}
+
+.logo-clients{
+    display: flex;
+    margin-top: 40px;
+    max-width: 1050px;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 115px;
+
+}
+
+.logo-clients img{
+    width: 50px;
+    height: 50px;
+}
+
+
+@media (max-width:1050px){
+
+    .logo-clients{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center; 
+    gap:20px;
+    max-width: 460px;
+   }
+
+   .logo-clients :nth-child(7){
+    display: none;
+   }
+
+   .logo-clients img{
+    background: #b4b4b460;
+    border-radius: 3px;
+    padding:4px;
+    border: solid 2px #28CB8B;
+}
+}
