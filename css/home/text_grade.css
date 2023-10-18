@@ -1,6 +1,6 @@
 /* pixel grade */
 
-.pixel_grade{
+.text_grade{
     display: grid;
     grid-template-columns: 1fr 1fr;
     justify-items: center;
@@ -14,17 +14,17 @@
     padding-top: 80px;
 }
 
-.pixel_grade h2{
+.text_grade h2{
     color:#4D4D4D;
     font-size:26px;
 }
 
-.pixel_grade p{
+.text_grade p{
     color: #717171;
     font-size:12px;
 }
 
-.pixel_grade a{
+.text_grade a{
     color:#ffffff;
     padding: 10px 22px;
     border-radius: 3px;
@@ -33,14 +33,14 @@
     margin-top: 16px;
 }
 
-.pixel_grade a:hover{
+.text_grade a:hover{
 
     background:  #4caf4f96;
     color:#4D4D4D;
 
 }
 
-.pixel_grade img{
+.text_grade img{
     width: 450px;
     height: 400px;
 }
@@ -50,7 +50,7 @@
 
     /*pixel grade*/
 
-    .pixel_grade{
+    .text_grade{
 
         grid-template-columns: 1fr ;    
     }
@@ -62,11 +62,11 @@
         margin-right: 8px;
     }
 
-    .pixel_grade h2{
+    .text_grade h2{
         font-size:24px;
     }
 
-    .pixel_grade img{
+    .text_grade img{
         width: 350px;
         height: 300px;
     }

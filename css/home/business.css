@@ -2,6 +2,7 @@
 
 .business{
     background: #F5F7FA;
+    height: 180px;
 }
 
 .business-content{
@@ -58,8 +59,10 @@
 @media (max-width:830px){
 
 
-    /*business*/
-
+    .business{
+        background: #F5F7FA;
+        height: auto;
+    }
     .business-content{
         grid-template-columns: 1fr;
     }
