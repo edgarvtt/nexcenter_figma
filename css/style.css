@@ -5,3 +5,8 @@
 @import url(./home/comunity.css);
 @import url(./home/text_grade.css);
 @import url(./home/business.css);
+
+/*util*/
+
+@import url(./util/color.css);
+

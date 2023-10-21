@@ -25,6 +25,7 @@
 .icons-grid{
     display: grid;
     gap:42px;
+    margin-left:8px;
     color:#4D4D4D;
     grid-template-columns: 10px 10px;
 }

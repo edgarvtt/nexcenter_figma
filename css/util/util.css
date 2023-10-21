@@ -1,0 +1,36 @@
+.big_button{
+
+
+        display: inline-block;
+        padding:16px 32px;
+        margin-top: 30px;
+        text-transform: uppercase;
+        background: #28CB8B;
+        color: #ffffff;
+        border-radius: 3px;
+
+}
+
+    
+.big_button:hover{
+    
+    background:#28cb8a7c;
+    color:#4D4D4D;
+
+}
+
+.small_button{
+    color:#ffffff;
+    padding: 10px 22px;
+    border-radius: 3px;
+    background: #4CAF4F;
+    display: inline-block;
+    margin-top: 16px;
+}
+
+.small_button:hover{
+
+    background:  #4caf4f96;
+    color:#4D4D4D;
+
+}
