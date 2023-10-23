@@ -8,6 +8,7 @@
 
     display: grid;
     grid-template-columns: 1fr 1fr ;
+    justify-items: center;
     max-width: 1050px;
     margin-left: auto;
     margin-right: auto;
@@ -20,7 +21,6 @@
 
     width: 320px;
     height: 300px; 
-    margin-left: 54px;
 
 }
 
@@ -42,7 +42,7 @@
 .logos-tesla{
 
     display: flex;
-    margin-left: -52px;
+   justify-content: space-between;
 
 }
 
@@ -85,7 +85,15 @@
     }
     
     .img_tesla{
-        margin-left: 10px;
+
+        margin-left: 20px;
+
+    }
+
+    .tesla-content-p{
+
+        font-size: 10px;
+
     }
 
 }
