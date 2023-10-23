@@ -86,14 +86,23 @@
     
     .img_tesla{
 
-        margin-left: 20px;
+        margin-left: 16px;
+        width: 100px;
+        height: 120px;
 
     }
+    .tesla-content img{
 
-    .tesla-content-p{
+        width: 220px;
+        height: 200px; 
+    
+    }
 
-        font-size: 10px;
+    .logos-tesla img{
 
+        width: 24px;
+        height: 24px;
+    
     }
 
 }
