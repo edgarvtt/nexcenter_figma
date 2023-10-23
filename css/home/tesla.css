@@ -1,0 +1,91 @@
+.tesla-bg{
+
+    background: var(--silver);
+
+}
+
+.tesla-content{
+
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    max-width: 1050px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    padding-top: 40px;
+
+}
+
+.tesla-content img{
+
+    width: 320px;
+    height: 300px; 
+    margin-left: 54px;
+
+}
+
+.tesla-content-p{
+
+    font-size: 12px;
+    font-style: medium;
+    font-weight: 400;
+    color: var(--grey);
+}
+
+.name_tim{
+
+    color:var(--primary);
+    font-size: 14px;
+
+}
+
+.logos-tesla{
+
+    display: flex;
+    margin-left: -52px;
+
+}
+
+.logos-tesla img{
+
+    width: 24px;
+    height: 24px;
+
+}
+
+.button-tesla{
+
+    font-size: 10px;
+    margin-left: 12px;
+    color:var(--primary);
+
+
+}
+
+.coluna-2-tesla{
+
+    margin-top: 14px;
+
+}
+
+@media (max-width:800px) {
+    
+    .tesla-content{
+
+        grid-template-columns: 1fr;
+        align-content: center;
+
+    }
+
+    .coluna-2-tesla{
+
+    text-align: center;
+    margin-left: 6px;
+    margin-right: 6px;
+    }
+    
+    .img_tesla{
+        margin-left: 10px;
+    }
+
+}

@@ -1,17 +1,24 @@
 /*business*/
 
-.business{
+.business-bg{
     background: #F5F7FA;
     height: 180px;
+    max-width: 1050px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .business-content{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    max-width: 1040px;
+    max-width: 1050px;
     padding-top: 20px;
     margin-left: auto;
     margin-right: auto;
+    background: #F5F7FA;
+    height: 180px;
+    border: solid var(--primary);
+    border-radius: 20px;
 }
 
 .grid-business-icons{
@@ -30,12 +37,12 @@
     grid-template-columns: 10px 10px;
 }
 
-.business h2{
+.business-content h2{
     font-size: 26px;
     color:#4D4D4D;
 }
 
-.business h2 span{
+.business-content h2 span{
     color:#28CB8B;
 }
 
@@ -60,9 +67,11 @@
 @media (max-width:830px){
 
 
-    .business{
+    .business-content{
         background: #F5F7FA;
         height: auto;
+        padding-top: 0px;
+        border: none;
     }
     .business-content{
         grid-template-columns: 1fr;
@@ -72,7 +81,7 @@
         text-align: center;
     }
 
-    .business{
+    .business-content{
         margin-top: 12px;
     }
 
