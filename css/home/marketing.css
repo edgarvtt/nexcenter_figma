@@ -1,0 +1,65 @@
+.marketing{
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    max-width: 1050px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-items: center;
+    padding-top: 20px;
+
+}
+
+.marketing-bg{
+    background: var(--white);
+
+}
+
+
+.marketing-text{
+    text-align: center;
+}
+
+.marketing-text h2{
+    font-size: 26px;
+    color: var(--d_grey)
+}
+
+.marketing-text p{
+    font-size: 12px;
+    color: var(--d_grey);
+}
+
+.marketing-slide{
+
+    background: #f5f7fab2;
+    padding: 12px;
+    text-align: center;
+    border-radius: 8px;
+    width: 200px;
+    height: 90px;
+    margin-left: 20px;
+    margin-top: -80px;
+    position: absolute;
+
+}
+
+.marketing-slide p{
+    font-size: 14px;
+}
+
+.marketing-slide a{
+
+    color: var(--primary);
+
+}
+
+@media (max-width:850px){
+
+    .marketing{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap:60px;
+    }
+
+}
