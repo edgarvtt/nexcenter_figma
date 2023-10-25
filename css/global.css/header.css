@@ -24,6 +24,25 @@
 
 }
 
+.efeito-a::after{
+
+    content: '';
+    display: block;
+    width: 0%;
+    height: 2px;
+    background: var(--shade-1);
+    margin-top: 4px;
+    transition: 0.3s;
+
+}
+
+.efeito-a:hover:after{
+
+    width: 100%;
+    position: relative;
+
+}
+
 
 .button-register{
 

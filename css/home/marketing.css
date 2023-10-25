@@ -51,8 +51,12 @@
 .marketing-slide a{
 
     color: var(--primary);
+    display: flex;
+    gap: 4px;
+    justify-content: center;
 
 }
+
 
 @media (max-width:850px){
 
