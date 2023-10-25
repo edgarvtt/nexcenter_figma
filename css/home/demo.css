@@ -1,0 +1,50 @@
+.article-bg{
+
+    background: var(--silver);
+    padding: 10px;
+    margin-top: 80px;
+}
+
+.article-bg div{
+    text-align: center;
+}
+
+.article-bg h2{
+
+    font-size: 54px;
+    color: var(--black)
+}
+
+.article-bg a{
+
+    display: inline-block;
+    padding:16px 32px;
+    background: #28CB8B;
+    color: #ffffff;
+    margin-top: -20px;
+    border-radius: 3px;
+
+}
+
+.article-bg a:hover{
+
+    background:#28cb8a7c;
+    color:#4D4D4D;
+
+}
+
+@media (max-width:850px){
+
+    .article-bg h2{
+    
+        font-size: 32px;
+
+    }
+
+    .article-bg a{
+    
+    
+        padding: 8px 16px;
+
+    }
+}
