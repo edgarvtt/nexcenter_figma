@@ -1,5 +1,9 @@
 # nexcenter_figma
-inspirado na comunidade do figma 
-https://edgarvtt.github.io/nexcenter_figma/
 
-figma: https://www.figma.com/proto/2FJ73c7K2dW7rI5HmDpGZL/Responsive-Landing-Page-Design-%7C-Website-Home-Page-Design-%7C-Agency-Website-UI-Design-(Community)?node-id=1-2&fuid=1137086280232149928
+project inspired by the figma community
+
+GitHub Page: https://edgarvtt.github.io/nexcenter_figma/
+
+Figma: https://www.figma.com/community/file/1222060007934600841
+Desing by: Muntasir Billah
+Code by: Edgar Vitor
