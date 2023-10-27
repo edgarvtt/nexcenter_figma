@@ -1,0 +1,64 @@
+.footer-bg{
+    background: var(--black);
+}
+
+.footer-contanier{
+
+    display: grid;
+    grid-template-columns:2fr 1fr 1fr 1fr;
+    max-width: 1040px;
+    margin: 0px auto;
+    align-items: self-start;
+    color: var(--white);
+    padding: 40px;
+}
+
+.footer-contanier p ,
+.footer-contanier li{
+
+    font-size: 12px;
+
+}
+
+.footer-midia{
+
+    display: flex;
+    gap: 18px;
+
+}
+
+.logo-info{
+    display: grid;
+    gap:50px;
+}
+
+.info ul{
+    display: grid;
+    gap: 14px;
+}
+
+.save-date{
+
+    display: grid;
+    gap: 16px;
+
+}
+
+.save-date input{
+
+    border-radius: 6px;
+    background-color: #ffffffa0;
+    padding: 8px;
+    width: 177.498px;
+    height: 20.843px; 
+
+}
+
+    @media (max-width:800px){
+
+        .footer-contanier{
+            grid-template-columns: 1fr;
+            gap: 60px;
+        }
+
+    }

@@ -43,6 +43,7 @@
     .logo-clients{
         overflow-x: auto;
         gap:40px;
+        scroll-behavior: smooth;
    }
 
 }
