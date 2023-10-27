@@ -11,6 +11,11 @@
 
 }
 
+.header a{
+    color: #4D4D4D;
+
+}
+
 .menu-header{
     display: flex;
     gap:40px;
