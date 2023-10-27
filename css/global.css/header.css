@@ -11,10 +11,11 @@
 
 }
 
-.header a{
-    color: #4D4D4D;
 
+.efeito-a{
+    color: var(--d_grey)
 }
+
 
 .menu-header{
     display: flex;
@@ -23,11 +24,6 @@
     margin: 4px;
 }
 
-.menu-header a:hover{
-
-    color:#28CB8B;
-
-}
 
 .efeito-a::after{
 
@@ -62,7 +58,7 @@
 }
 
 .button-register:hover{
-    background-color: #28cb8a63;
+    background-color: #28cb8adf;
 }
 
 

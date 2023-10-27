@@ -28,9 +28,7 @@
 
 .article-bg a:hover{
 
-    background:#28cb8a7c;
-    color:#4D4D4D;
-
+    background:rgba(40, 203, 138, 0.879);
 }
 
 @media (max-width:850px){
